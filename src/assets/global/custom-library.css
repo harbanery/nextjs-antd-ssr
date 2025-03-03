@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav.custom-navbar {
+  @apply w-full flex px-6 lg:px-[135px] py-5 md:py-[19px] gap-12 justify-between lg:justify-center items-center !transition-all !duration-[25ms] select-none;
+}
+
+nav.custom-navbar.home {
+  @apply absolute z-10 top-0 bg-transparent;
+}
+
+nav.custom-navbar.normal {
+  @apply fixed z-20 bg-neutral-header border-b-[0.5px] border-b-[#CDD6DA];
+}
+
+nav > .custom-logo {
+  @apply min-w-[66.17px] min-h-[24px];
+}
+
+nav > .custom-menu {
+  @apply !bg-transparent w-full flex gap-2 !text-label-small;
+}
+
+nav > .custom-dropdown > .space {
+  @apply font-jakarta text-label-small;
+}
+
+nav .custom-button {
+  @apply py-5;
+}
+
+#ticket-card.ant-card ul.ant-card-actions > li {
+  @apply text-left px-8 py-2 !cursor-default;
+}
+
+#sub-ticket-card.ant-card ul.ant-card-actions > li {
+  @apply text-left px-4 !py-0 !cursor-default;
+}
+
+#ticket-card.ant-card ul.ant-card-actions > li > span {
+  @apply !cursor-default;
+}
+
+nav > .ant-drawer .ant-drawer-content-wrapper {
+  @apply max-w-[326px];
+}
+
+.ant-drawer .ant-drawer-content-wrapper {
+  @apply max-w-[590px];
+}
+
+.ant-select-dropdown {
+  @apply !z-10;
+}
+
+.ant-picker-dropdown {
+  @apply !z-10;
+}
+
+.alert-container-collapse.ant-collapse
+  .ant-collapse-content.ant-collapse-content-active {
+  @apply !border-none;
+}
+
+.picker-mobile-drawer.ant-select-dropdown {
+  @apply !z-[1001];
+}
+
+.picker-mobile-drawer.ant-picker-dropdown {
+  @apply !z-[1001];
+}
+
+.ant-input-affix-wrapper.ant-input-password input.ant-input {
+  @apply !pt-[18px];
+}
+
+.ant-select > .ant-select-selector > .ant-select-selection-wrap {
+  @apply pt-[18px];
+}
+
+.ant-select
+  > .ant-select-selector
+  > .ant-select-selection-wrap
+  > .ant-select-selection-search
+  > input {
+  @apply pt-[18px];
+}
+
+.ant-space#schedule-section .ant-select > .ant-select-selector {
+  @apply p-0 m-0 rounded-none;
+}
+
+.ant-space#schedule-section
+  .ant-select
+  > .ant-select-selector
+  > .ant-select-selection-wrap {
+  @apply p-0 m-0 !font-helvetica !text-label-xlarge;
+}
+
+.ant-space#schedule-section
+  .ant-select
+  > .ant-select-selector
+  > .ant-select-selection-wrap
+  > .ant-select-selection-search
+  > input {
+  @apply p-0 m-0;
+}
+
+/* .ant-checkbox-wrapper::after {
+  @apply hidden content-none;
+} */
+
+.ant-radio-group label.ant-radio-wrapper {
+  @apply items-center;
+}
+
+.ant-picker > .ant-picker-input > input {
+  @apply pt-5;
+}
+
+footer.custom-footer {
+  @apply bg-neutral-footer pt-20 select-none;
+}
+
+footer .link-typography {
+  @apply !font-helvetica !text-label-large !text-white hover:!text-gray-400 !select-none;
+}
+
+footer .custom-logo {
+  @apply min-w-[110.29px] min-h-[40px];
+}
+
+footer .custom-button {
+  @apply hover:!border-gray-500;
+}
