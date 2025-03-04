@@ -4,6 +4,7 @@ import "antd/dist/reset.css";
 import type { Metadata } from "next";
 import { Noto_Color_Emoji, Plus_Jakarta_Sans } from "next/font/google";
 import Head from "next/head";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
 
 const jakarta_sans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -36,7 +37,7 @@ export default function RootLayout({
       <body
         className={`${jakarta_sans.variable} ${noto_emoji.variable} antialiased`}
       >
-        {children}
+        <AntdRegistry>{children}</AntdRegistry>
       </body>
     </html>
   );

@@ -95,7 +95,7 @@ nav > .ant-drawer .ant-drawer-content-wrapper {
   .ant-select
   > .ant-select-selector
   > .ant-select-selection-wrap {
-  @apply p-0 m-0 !font-helvetica !text-label-xlarge;
+  @apply p-0 m-0 !text-label-xlarge;
 }
 
 .ant-space#schedule-section
@@ -124,7 +124,7 @@ footer.custom-footer {
 }
 
 footer .link-typography {
-  @apply !font-helvetica !text-label-large !text-white hover:!text-gray-400 !select-none;
+  @apply !text-label-large !text-white hover:!text-gray-400 !select-none;
 }
 
 footer .custom-logo {

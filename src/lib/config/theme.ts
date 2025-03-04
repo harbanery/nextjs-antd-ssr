@@ -1,6 +1,6 @@
 export const globalTheme = {
   token: {
-    fontFamily: "var(--font-jakarta-sans), var(--font-helvetica), sans-serif",
+    fontFamily: "var(--font-jakarta-sans), sans-serif",
     colorPrimary: "#ed6b23",
     colorPrimaryBorder: "#f6b591",
     colorLink: "#ed6b23",
@@ -12,7 +12,7 @@ export const globalTheme = {
       horizontalItemSelectedColor: "#2d2a70",
     },
     Button: {
-      fontFamily: "var(--font-jakarta-sans), var(--font-helvetica), sans-serif",
+      fontFamily: "var(--font-jakarta-sans), sans-serif",
       defaultActiveBorderColor: "#c6591d",
       defaultActiveColor: "#c6591d",
       colorLinkActive: "#c6591d",

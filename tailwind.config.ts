@@ -33,6 +33,10 @@ const config: Config = {
           gradient:
             "linear-gradient(119deg, rgba(227,105,37,1) 0%, rgba(237,107,35,1) 21%, rgba(208,108,53,1) 48%, rgba(187,89,34,1) 75%, rgba(164,72,21,1) 100%)",
         },
+        neutral: {
+          header: "#FFFFFF",
+          footer: "#192A3E",
+        },
       },
       fontSize: {
         "display-large": ["57px", { lineHeight: "64px", fontWeight: "800" }],
